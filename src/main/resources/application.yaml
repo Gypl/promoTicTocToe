@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: promoTicToc
+
+server:
+  servlet:
+    context-path: /
+
+telegram:
+  bot:
+    token: ${BOT_TOKEN}
+    username: PromoTicToc456788656_bot
+  miniapp:
+    url: ${PROMO_SITE_URL}
